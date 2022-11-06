@@ -1,0 +1,52 @@
+{
+  "configById": {
+    "ImageViewPanel!4fq9j0k": {
+      "cameraTopic": "/main_camera/image_raw",
+      "enabledMarkerTopics": [],
+      "mode": "fit",
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "rotation": 0,
+      "synchronize": false,
+      "transformMarkers": false,
+      "zoom": 1
+    },
+    "RawMessages!2uzhl6c": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/drive",
+      "expansion": {
+        "drive": "e"
+      }
+    },
+    "RawMessages!18lvu11": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/joy"
+    }
+  },
+  "globalVariables": {
+    "steer": "n"
+  },
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": "ImageViewPanel!4fq9j0k",
+    "second": {
+      "first": "RawMessages!2uzhl6c",
+      "second": "RawMessages!18lvu11",
+      "direction": "row"
+    },
+    "direction": "column",
+    "splitPercentage": 63.75321336760925
+  }
+}

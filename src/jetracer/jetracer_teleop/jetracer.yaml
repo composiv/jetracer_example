@@ -1,0 +1,13 @@
+jetracer:
+  throttle_gain: 1
+  steering_offset: 0
+  velocity_gain: 1
+  steering_gain: 0.41
+  frame_id: odom
+  joytopic: joy
+  drivetopic: drive
+  controller: 
+    index: 0
+    steering: 0
+    throttle: 3
+
