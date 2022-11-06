@@ -60,9 +60,9 @@ The scripts for starting muto on the JetRace is provided. After completing  "Ins
 
          ssh jetson@<YOUR JETRACER IP>
 
-* Change into the jetracer_example folder and edit the muto.yaml configuration to change its name and connect to the Muto Twin server of your choice:
+* Change into the jetracer_example folder and edit the [muto.yaml](https://github.com/composiv/jetracer_example/blob/main/launch/config/muto.yaml) configuration to change its name and connect to the Muto Twin server of your choice:
 
-```diff
+```diff title="launch/config/muto.yaml"
 muto:
   stack_topic: /stack
   twin_topic: /twin
@@ -196,13 +196,13 @@ New we can start a JetRacer `Stack` on the car to get access to the `Camera`, co
         WARNNIG: Jetson.GPIO library has not been verified with this carrier board,
         WARNING: and in fact is unlikely to work correctly.
 
-* Press the buttons on your Gamepad to move the JetRacer around.  You can change how the gamepad controls the car by modifying the configuration parameters in [src/jetracer/jetracer_teleop/jetracer.yaml](src/jetracer/jetracer_teleop/jetracer.yaml): 
+* Press the buttons on your Gamepad to move the JetRacer around.  You can change how the gamepad controls the car by modifying the configuration parameters in [src/jetracer/jetracer_teleop/jetracer.yaml](https://github.com/composiv/jetracer_example/blob/main/src/jetracer/jetracer_teleop/jetracer.yaml): 
 
 ## Visualizing the JetRacer with Foxglove Studio
 
 Navigate to foxglove studio webbsite. Click on Open Connection and change the Port ID from 9090 to your own port ID. In this example, we set the websoocket port to 7777, so set the data connection to ws://locahost:7777. Now we we can import the layout. These layouts will display predfined panels suitable for visualization oıf our example:
 
-<img src="assets/dashboard.gif" height=256>
+<img src="assets/foxglove.png" height=256>
 
 
 ## See also
