@@ -60,7 +60,7 @@ The scripts for starting muto on the JetRace is provided. After completing  "Ins
 
          ssh jetson@<YOUR JETRACER IP>
 
-* Change into the jetracer_example folder and edit the [muto.yaml](https://github.com/composiv/jetracer_example/blob/main/launch/config/muto.yaml) configuration to change its name and connect to the Muto Twin server of your choice:
+* Change into the jetracer_example folder and edit the [launch/config/muto.yaml](https://github.com/composiv/jetracer_example/blob/main/launch/config/muto.yaml) configuration to change its name and connect to the Muto Twin server of your choice:
 
 ```diff title="launch/config/muto.yaml"
 muto:
