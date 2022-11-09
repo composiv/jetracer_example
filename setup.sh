@@ -19,6 +19,7 @@ git clone --branch main  https://github.com/eclipse-muto/core.git   src/core
 git clone --branch main  https://github.com/eclipse-muto/agent.git   src/agent
 git clone --branch main  https://github.com/eclipse-muto/composer.git   src/composer
 
+chmod +x src/jetracer/jetracer_teleop/src/jetracer_teleop.py
 
 export ROS_PYTHON_VERSION=3
 
